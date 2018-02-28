@@ -1,0 +1,35 @@
+<resources>
+  <string name="app_name">Lisbon Quiz App</string>
+  <string name="txt_Question2_Answer4">December 1, 1905</string>
+  <string name="txt_Question2_Answer3">November 1, 1755</string>
+  <string name="txt_Question1">1- What animal is in Lisbon\'s flag?</string>
+  <string name="txt_Question1_Answer1">The Eagle</string>
+  <string name="txt_Question1_Answer2">The Lion</string>
+  <string name="txt_Question1_Answer3">The Pidgeon</string>
+  <string name="txt_Question1_Answer4">The Raven</string>
+  <string name="txt_Question2">2- When was the Lisbon earthquake?</string>
+  <string name="txt_Question2_Answer1">June 1, 1866</string>
+  <string name="txt_Question2_Answer2">September 1, 1645</string>
+  <string name="txt_Question3">3- Which of these locations are in Lisbon?</string>
+  <string name="txt_Question3_Answer1">Belém Tower</string>
+  <string name="txt_Question3_Answer2">Church of the Third Order of St. Francis</string>
+  <string name="txt_Question3_Answer3">Convent of Santa Clara</string>
+  <string name="txt_Question3_Answer4">Jerónimos Monastery</string>
+  <string name="txt_Question4">4- Which of these soccer teams are in Lisbon?</string>
+  <string name="txt_Question4_Answer1">C.F. Os Belenenses</string>
+  <string name="txt_Question4_Answer2">C.D. Tondela</string>
+  <string name="txt_Question4_Answer3">C.S. Maritimo</string>
+  <string name="txt_Question4_Answer4">Sporting CP</string>
+  <string name="txt_Question5">5- Can you tell what place is this in Lisbon?</string>
+  <string name="txt_Question5_Answer">Write Here</string>
+  <string name="btn_Reset">Reset</string>
+  <string name="btn_Submit">Submit</string>
+  <string name="txt_Title">Let\'s see what you know about Lisbon!</string>
+  <string name="img_Title">Title Image</string>
+  <string name="img_Question5">Question5 Image</string>
+  <string name="your_score">Correct Answers: </string>
+  <string name="bad_score">\nYou need to learn more about Lisbon. </string>
+  <string name="good_score">\nGood score, you must have been in Lisbon before! </string>
+  <string name="perfect_score">\nPerfect score! You\'re a natural! </string>
+  <string name="txt_reset">Quiz has been reset</string>
+</resources>
