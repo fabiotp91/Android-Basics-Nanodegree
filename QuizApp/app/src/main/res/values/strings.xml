@@ -28,8 +28,8 @@
   <string name="img_Title">Title Image</string>
   <string name="img_Question5">Question5 Image</string>
   <string name="your_score">Correct Answers: </string>
+  <string name="question5_input_error">Question 5 field is empty!</string>
   <string name="bad_score">\nYou need to learn more about Lisbon. </string>
   <string name="good_score">\nGood score, you must have been in Lisbon before! </string>
-  <string name="perfect_score">\nPerfect score! You\'re a natural! </string>
   <string name="txt_reset">Quiz has been reset</string>
 </resources>

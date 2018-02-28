@@ -98,16 +98,23 @@ public class MainActivity extends AppCompatActivity {
 
     //Question 5 Answer
     EditText q5Answer = findViewById(R.id.edtxt_q5);
-    String getQ5Input = q5Answer.getText().toString();
+    String getQ5Input = q5Answer.getText().toString().trim();
 
     /**
      * Show toast with total score and message related to score
      */
+
+    if (getQ5Input.matches("")) {
+      Toast.makeText(this, getString(R.string.question5_input_error),
+          Toast.LENGTH_SHORT).show();
+      return;
+    }
+
     //Bad Score
-    if (calculateScore(isQ1A4Checked, isQ2A3Checked,
+    else if (calculateScore(isQ1A4Checked, isQ2A3Checked,
         isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
         isQ4Right(isQ4A1Checked, isQ4A4Checked, isQ4A2Checked, isQ4A3Checked),
-        isQ5valid(getQ5Input)) < 2) {
+        isQ5valid(getQ5Input)) <= 2) {
 
       Toast.makeText(MainActivity.this, getString(R.string.your_score) +
               calculateScore(isQ1A4Checked, isQ2A3Checked,
@@ -117,17 +124,8 @@ public class MainActivity extends AppCompatActivity {
               + getString(R.string.bad_score),
           Toast.LENGTH_LONG).show();
     }
-
     //Good Score
-    if (calculateScore(isQ1A4Checked, isQ2A3Checked,
-        isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
-        isQ4Right(isQ4A1Checked, isQ4A4Checked, isQ4A2Checked, isQ4A3Checked),
-        isQ5valid(getQ5Input)) >= 3 &&
-        calculateScore(isQ1A4Checked, isQ2A3Checked,
-            isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
-            isQ4Right(isQ4A1Checked, isQ4A4Checked, isQ4A2Checked, isQ4A3Checked),
-            isQ5valid(getQ5Input)) <= 4) {
-
+    else {
       Toast.makeText(MainActivity.this, getString(R.string.your_score) +
               calculateScore(isQ1A4Checked, isQ2A3Checked,
                   isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
@@ -136,27 +134,9 @@ public class MainActivity extends AppCompatActivity {
               + getString(R.string.good_score),
           Toast.LENGTH_LONG).show();
     }
-
-    //Perfect Score
-    if (calculateScore(isQ1A4Checked, isQ2A3Checked,
-        isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
-        isQ4Right(isQ4A1Checked, isQ4A4Checked, isQ4A2Checked, isQ4A3Checked),
-        isQ5valid(getQ5Input)) == 5) {
-
-      Toast.makeText(MainActivity.this, getString(R.string.your_score) +
-              calculateScore(isQ1A4Checked, isQ2A3Checked,
-                  isQ3Right(isQ3A1Checked, isQ3A4Checked, isQ3A2Checked, isQ3A3Checked),
-                  isQ4Right(isQ4A1Checked, isQ4A4Checked, isQ4A2Checked, isQ4A3Checked),
-                  isQ5valid(getQ5Input))
-              + getString(R.string.perfect_score),
-          Toast.LENGTH_LONG).show();
-    }
-
   }
 
-  /**
-   * Question 5 - Editext input validation
-   */
+  //Question 5 - Editext input validation
   private boolean isQ5valid(String q5Answer) {
     return q5Answer.equalsIgnoreCase("Bairro Alto");
   }
@@ -176,14 +156,12 @@ public class MainActivity extends AppCompatActivity {
     return isQ4A1Checked && isQ4A4Checked && !isQ4A2Checked && !isQ4A3Checked;
   }
 
-  /**
-   * Calculate Total score
-   */
+  //Calculate Total score
   private int calculateScore(boolean isQuestion1Right, boolean isQuestion2Right,
       boolean isQuestion3Right, boolean isQuestion4Right,
       boolean isQuestion5Right) {
-    int score = 0;
 
+    int score = 0;
     if (isQuestion1Right) {
       score = score + 1;
     }
@@ -201,5 +179,4 @@ public class MainActivity extends AppCompatActivity {
     }
     return score;
   }
-
 }
