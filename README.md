@@ -14,3 +14,6 @@ I will keep here all my Android Basics Nanodegree projects that I submit, to hel
 ## Quiz App
 ![Image](https://github.com/fabiotp91/Android-Basics-Nanodegree/blob/master/quizapp.png)
 
+## Music App
+![Image](https://github.com/fabiotp91/Android-Basics-Nanodegree/blob/master/musicapp.gif)
+
