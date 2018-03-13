@@ -6,29 +6,29 @@ package com.fabiotp.musicapp;
 
 public class Music {
 
-  private String mMusicName;
-  private String mBandName;
-  private Integer mImageResourceId;
+  private String musicName;
+  private String bandName;
+  private int imageResourceId;
 
   public Music(String musicName, String bandName, int imageResourceId) {
-    this.mMusicName = musicName;
-    this.mBandName = bandName;
-    this.mImageResourceId = imageResourceId;
+    this.musicName = musicName;
+    this.bandName = bandName;
+    this.imageResourceId = imageResourceId;
   }
 
   //Get the name of the music
   public String getMusicName() {
-    return mMusicName;
+    return musicName;
   }
 
   //Get the band name
   public String getBandName() {
-    return mBandName;
+    return bandName;
   }
 
   //Get the image resource ID
   public int getImageResourceId() {
-    return mImageResourceId;
+    return imageResourceId;
   }
 
 

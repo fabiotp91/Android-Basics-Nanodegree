@@ -26,8 +26,7 @@ public class MusicAdapter extends ArrayAdapter<Music> {
   /**
    * Provides a view for an AdapterView (ListView, GridView, etc.)
    *
-   * @param position The position in the list of data that should be displayed in the list item
-   * view.
+   * @param position Position in the list of data that should be displayed in the list item view.
    * @param convertView The recycled view to populate.
    * @param parent The parent ViewGroup that is used for inflation.
    * @return The View for the position in the AdapterView.
@@ -45,19 +44,19 @@ public class MusicAdapter extends ArrayAdapter<Music> {
     Music currentMusic = getItem(position);
 
     // Find the TextView in the list_item.xml layout with the ID txt_music
-    TextView musicTextView = (TextView) listItemView.findViewById(R.id.txt_music);
+    TextView musicTextView = listItemView.findViewById(R.id.txt_music);
     // Get the music name from the current Music object and
     // set this text on the name TextView
     musicTextView.setText(currentMusic.getMusicName());
 
     // Find the TextView in the list_item.xml layout with the ID txt_band
-    TextView bandTextView = (TextView) listItemView.findViewById(R.id.txt_band);
+    TextView bandTextView = listItemView.findViewById(R.id.txt_band);
     // Get the band name from the current Music object and
     // set this text on the number TextView
     bandTextView.setText(currentMusic.getBandName());
 
     // Find the ImageView in the list_item.xml layout with the ID img_album
-    ImageView albumView = (ImageView) listItemView.findViewById(R.id.img_album);
+    ImageView albumView = listItemView.findViewById(R.id.img_album);
     // Get the image resource ID from the current Music object and
     // set the image to imageView
     albumView.setImageResource(currentMusic.getImageResourceId());

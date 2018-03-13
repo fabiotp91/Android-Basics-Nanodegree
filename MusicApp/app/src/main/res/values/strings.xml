@@ -1,5 +1,7 @@
 <resources>
   <string name="app_name">Wave Music</string>
+  <string name="act_music_list">Wave Music</string>
+  <string name="act_play_music">Now Playing</string>
 
   <string name="band_Name_1">Talisco</string>
   <string name="music_Name_1">My Home</string>

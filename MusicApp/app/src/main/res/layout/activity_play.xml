@@ -8,7 +8,7 @@
   android:background="@color/colorPrimary"
   android:orientation="vertical"
   tools:context="com.fabiotp.musicapp.PlayActivity">
-<!-- Now Playing Album View -->
+  <!-- Now Playing Album View -->
   <ScrollView
     android:layout_width="match_parent"
     android:layout_height="0dip"
@@ -21,9 +21,9 @@
       <ImageView
         android:id="@+id/img_album_play"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"/>
+        android:scaleType="fitXY"/>
 
       <TextView
         android:id="@+id/txt_music_play"
@@ -39,7 +39,7 @@
 
     </LinearLayout>
   </ScrollView>
-<!-- Bottom Navigation (Skip Back, Play/Pause, Skip Forward) and ProgressBar -->
+  <!-- Bottom Navigation (Skip Back, Play/Pause, Skip Forward) and ProgressBar -->
   <ProgressBar
     android:id="@+id/progressBar"
     style="?android:attr/progressBarStyleHorizontal"
@@ -58,22 +58,25 @@
     <ImageView
       android:id="@+id/img_skipBack"
       android:layout_width="0dp"
-      android:layout_height="wrap_content"
+      android:layout_height="30dp"
       android:layout_weight="1"
+      android:layout_margin="8dp"
       android:src="@drawable/skip_backward"/>
 
     <ImageView
       android:id="@+id/img_play_pause"
       android:layout_width="0dp"
-      android:layout_height="wrap_content"
+      android:layout_height="30dp"
       android:layout_weight="1"
+      android:layout_margin="8dp"
       android:src="@drawable/play_pause"/>
 
     <ImageView
       android:id="@+id/img_skipForward"
       android:layout_width="0dp"
-      android:layout_height="wrap_content"
+      android:layout_height="30dp"
       android:layout_weight="1"
+      android:layout_margin="8dp"
       android:src="@drawable/skip_forward"/>
   </LinearLayout>
 

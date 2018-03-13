@@ -15,6 +15,9 @@ public class MusicList extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.music_list);
 
+    //Set activity tittle
+    setTitle(R.string.act_music_list);
+
     //Create and populate ArrayList
     final ArrayList<Music> musics = new ArrayList<>();
     musics.add(new Music(getString(R.string.music_Name_1), getString(R.string.band_Name_1),
@@ -40,7 +43,7 @@ public class MusicList extends AppCompatActivity {
 
     //Find list view and bind it with the custom adapter
     MusicAdapter adapter = new MusicAdapter(this, musics);
-    final ListView listView = (ListView) findViewById(R.id.list);
+    final ListView listView = findViewById(R.id.list);
     listView.setAdapter(adapter);
 
     //Add event listener so we can handle clicks
