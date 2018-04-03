@@ -32,19 +32,20 @@ public class TourGuideAdapter extends FragmentPagerAdapter {
   }
 
   @Override
-  public int getCount(){return 4;}
-
+  public int getCount() {
+    return 4;
+  }
 
 
   @Override
-  public CharSequence getPageTitle(int position){
-    if (position ==0){
+  public CharSequence getPageTitle(int position) {
+    if (position == 0) {
       return appContext.getString(R.string.tab1_title);
-    }else if(position==1){
+    } else if (position == 1) {
       return appContext.getString(R.string.tab2_title);
-    }else if(position ==2){
+    } else if (position == 2) {
       return appContext.getString(R.string.tab3_title);
-    }else {
+    } else {
       return appContext.getString(R.string.tab4_title);
     }
   }

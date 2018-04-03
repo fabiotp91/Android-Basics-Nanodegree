@@ -17,3 +17,5 @@ I will keep here all my Android Basics Nanodegree projects that I submit, to hel
 ## Music App
 ![Image](https://github.com/fabiotp91/Android-Basics-Nanodegree/blob/master/musicapp.gif)
 
+## Tour Guide App
+![Image](https://github.com/fabiotp91/Android-Basics-Nanodegree/blob/master/tourguide.gif)

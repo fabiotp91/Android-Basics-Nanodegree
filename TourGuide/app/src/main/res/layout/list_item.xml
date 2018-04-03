@@ -3,7 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@color/colorAccent"
   android:minHeight="@dimen/list_item_height"
   android:orientation="horizontal">
 
@@ -20,36 +19,31 @@
     android:layout_alignParentRight="true"
     android:layout_alignParentTop="true"
     android:layout_toRightOf="@id/image"
-    android:paddingLeft="16dp"
+    android:paddingLeft="@dimen/padding_width"
     android:orientation="vertical">
 
     <TextView
       android:id="@+id/text_location"
-      android:textStyle="bold"
+      style="@style/ListItem"
       android:layout_width="match_parent"
       android:layout_height="0dp"
-      android:layout_weight="1"
-      android:gravity="bottom"
-      android:textAppearance="?android:textAppearanceMedium"
-      android:textColor="@android:color/white"/>
+      android:layout_weight="1"/>
 
     <TextView
       android:id="@+id/text_details"
+      style="@style/ListItem.Secondary"
       android:layout_width="match_parent"
       android:layout_height="0dp"
-      android:layout_weight="1"
-      android:gravity="top"
-      android:textAppearance="?android:textAppearanceMedium"
-      android:textColor="@android:color/white"/>
+      android:layout_weight="1"/>
 
   </LinearLayout>
 
   <ImageView
     android:layout_width="24dp"
     android:layout_height="24dp"
-    android:layout_marginRight="16dp"
+    android:layout_marginRight="@dimen/padding_width"
     android:layout_alignParentRight="true"
     android:layout_centerVertical="true"
-    android:src="@drawable/ic_launcher_background"/>
+    android:src="@drawable/google_maps"/>
 
 </RelativeLayout>
