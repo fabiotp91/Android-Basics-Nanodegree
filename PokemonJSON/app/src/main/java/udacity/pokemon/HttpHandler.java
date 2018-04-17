@@ -16,6 +16,7 @@ package udacity.pokemon;
  * limitations under the License.
  */
 
+import android.util.Log;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -43,6 +44,7 @@ public class HttpHandler {
 
     } catch (IOException e) {
       //handle the exception
+      Log.e("httphandler", "Error trying to fetch JSON data", e);
     } finally {
       if (urlConnection != null) {
         urlConnection.disconnect();
@@ -50,8 +52,9 @@ public class HttpHandler {
       if (inputStream != null) {
         inputStream.close();
       }
-      return jsonResponse;
+
     }
+    return jsonResponse;
   }
 
   private String convertStreamToString(InputStream is) {
