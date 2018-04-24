@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.quakereport;
+package com.example.android.didyoufeelit;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -30,29 +30,20 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
- * Helper methods related to requesting and receiving earthquake data from USGS.
+ * Utility class with methods to help perform the HTTP request and
+ * parse the response.
  */
-public final class QueryUtils {
+public final class Utils {
 
     /** Tag for the log messages */
-    private static final String LOG_TAG = QueryUtils.class.getSimpleName();
+    public static final String LOG_TAG = Utils.class.getSimpleName();
 
     /**
-     * Create a private constructor because no one should ever create a {@link QueryUtils} object.
-     * This class is only meant to hold static variables and methods, which can be accessed
-     * directly from the class name QueryUtils (and an object instance of QueryUtils is not needed).
+     * Query the USGS dataset and return an {@link Event} object to represent a single earthquake.
      */
-    private QueryUtils() {
-    }
-
-    /**
-     * Query the USGS dataset and return a list of {@link Earthquake} objects.
-     */
-    public static List<Earthquake> fetchEarthquakeData(String requestUrl) {
+    public static Event fetchEarthquakeData(String requestUrl) {
         // Create URL object
         URL url = createUrl(requestUrl);
 
@@ -61,14 +52,14 @@ public final class QueryUtils {
         try {
             jsonResponse = makeHttpRequest(url);
         } catch (IOException e) {
-            Log.e(LOG_TAG, "Problem making the HTTP request.", e);
+            Log.e(LOG_TAG, "Error closing input stream", e);
         }
 
-        // Extract relevant fields from the JSON response and create a list of {@link Earthquake}s
-        List<Earthquake> earthquakes = extractFeatureFromJson(jsonResponse);
+        // Extract relevant fields from the JSON response and create an {@link Event} object
+        Event earthquake = extractFeatureFromJson(jsonResponse);
 
-        // Return the list of {@link Earthquake}s
-        return earthquakes;
+        // Return the {@link Event}
+        return earthquake;
     }
 
     /**
@@ -79,7 +70,7 @@ public final class QueryUtils {
         try {
             url = new URL(stringUrl);
         } catch (MalformedURLException e) {
-            Log.e(LOG_TAG, "Problem building the URL ", e);
+            Log.e(LOG_TAG, "Error with creating URL ", e);
         }
         return url;
     }
@@ -119,9 +110,6 @@ public final class QueryUtils {
                 urlConnection.disconnect();
             }
             if (inputStream != null) {
-                // Closing the input stream could throw an IOException, which is why
-                // the makeHttpRequest(URL url) method signature specifies than an IOException
-                // could be thrown.
                 inputStream.close();
             }
         }
@@ -147,70 +135,36 @@ public final class QueryUtils {
     }
 
     /**
-     * Return a list of {@link Earthquake} objects that has been built up from
-     * parsing the given JSON response.
+     * Return an {@link Event} object by parsing out information
+     * about the first earthquake from the input earthquakeJSON string.
      */
-    private static List<Earthquake> extractFeatureFromJson(String earthquakeJSON) {
+    private static Event extractFeatureFromJson(String earthquakeJSON) {
         // If the JSON string is empty or null, then return early.
         if (TextUtils.isEmpty(earthquakeJSON)) {
             return null;
         }
 
-        // Create an empty ArrayList that we can start adding earthquakes to
-        List<Earthquake> earthquakes = new ArrayList<>();
-
-        // Try to parse the JSON response string. If there's a problem with the way the JSON
-        // is formatted, a JSONException exception object will be thrown.
-        // Catch the exception so the app doesn't crash, and print the error message to the logs.
         try {
-
-            // Create a JSONObject from the JSON response string
             JSONObject baseJsonResponse = new JSONObject(earthquakeJSON);
+            JSONArray featureArray = baseJsonResponse.getJSONArray("features");
 
-            // Extract the JSONArray associated with the key called "features",
-            // which represents a list of features (or earthquakes).
-            JSONArray earthquakeArray = baseJsonResponse.getJSONArray("features");
+            // If there are results in the features array
+            if (featureArray.length() > 0) {
+                // Extract out the first feature (which is an earthquake)
+                JSONObject firstFeature = featureArray.getJSONObject(0);
+                JSONObject properties = firstFeature.getJSONObject("properties");
 
-            // For each earthquake in the earthquakeArray, create an {@link Earthquake} object
-            for (int i = 0; i < earthquakeArray.length(); i++) {
+                // Extract out the title, number of people, and perceived strength values
+                String title = properties.getString("title");
+                String numberOfPeople = properties.getString("felt");
+                String perceivedStrength = properties.getString("cdi");
 
-                // Get a single earthquake at position i within the list of earthquakes
-                JSONObject currentEarthquake = earthquakeArray.getJSONObject(i);
-
-                // For a given earthquake, extract the JSONObject associated with the
-                // key called "properties", which represents a list of all properties
-                // for that earthquake.
-                JSONObject properties = currentEarthquake.getJSONObject("properties");
-
-                // Extract the value for the key called "mag"
-                double magnitude = properties.getDouble("mag");
-
-                // Extract the value for the key called "place"
-                String location = properties.getString("place");
-
-                // Extract the value for the key called "time"
-                long time = properties.getLong("time");
-
-                // Extract the value for the key called "url"
-                String url = properties.getString("url");
-
-                // Create a new {@link Earthquake} object with the magnitude, location, time,
-                // and url from the JSON response.
-                Earthquake earthquake = new Earthquake(magnitude, location, time, url);
-
-                // Add the new {@link Earthquake} to the list of earthquakes.
-                earthquakes.add(earthquake);
+                // Create a new {@link Event} object
+                return new Event(title, numberOfPeople, perceivedStrength);
             }
-
         } catch (JSONException e) {
-            // If an error is thrown when executing any of the above statements in the "try" block,
-            // catch the exception here, so the app doesn't crash. Print a log message
-            // with the message from the exception.
-            Log.e("QueryUtils", "Problem parsing the earthquake JSON results", e);
+            Log.e(LOG_TAG, "Problem parsing the earthquake JSON results", e);
         }
-
-        // Return the list of earthquakes
-        return earthquakes;
+        return null;
     }
-
 }

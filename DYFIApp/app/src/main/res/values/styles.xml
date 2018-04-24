@@ -14,11 +14,12 @@
      limitations under the License.
 -->
 <resources>
-  <string name="app_name">Quake Report</string>
 
-  <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
-if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
-  <string name="near_the">Near the</string>
-  <string name="no_earthquakes">No Earthquakes Found :)</string>
-  <string name="no_internet_connection">No internet connection :(</string>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
 </resources>
