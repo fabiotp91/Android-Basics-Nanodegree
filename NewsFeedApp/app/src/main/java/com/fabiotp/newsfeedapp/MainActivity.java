@@ -2,14 +2,18 @@ package com.fabiotp.newsfeedapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -29,7 +33,9 @@ public class MainActivity extends AppCompatActivity
   // Adapter for the list of articles
   private ArticlesAdapter adapter;
 
-  /** TextView that is displayed when the list is empty */
+  /**
+   * TextView that is displayed when the list is empty
+   */
   private TextView emptyStateTextView;
 
   SwipeRefreshLayout swipe;
@@ -79,12 +85,12 @@ public class MainActivity extends AppCompatActivity
     // If there is a network connection, fetch data
     if (networkInfo != null && networkInfo.isConnected()) {
       /*Get LoadManager
-      * Initialize the loader. Pass in the int ID constant defined above and pass in null for
-      * the bundle. Pass in this activity for the LoaderCallbacks parameter (which is valid
-      * because this activity implements the LoaderCallbacks interface).
-      */
+       * Initialize the loader. Pass in the int ID constant defined above and pass in null for
+       * the bundle. Pass in this activity for the LoaderCallbacks parameter (which is valid
+       * because this activity implements the LoaderCallbacks interface).
+       */
       getSupportLoaderManager().initLoader(LOADER_ID, null, this);
-    }else{
+    } else {
       // Otherwise, display error
       // First, hide loading indicator so error message will be visible
       View loadingIndicator = findViewById(R.id.loading_indicator);
@@ -97,6 +103,8 @@ public class MainActivity extends AppCompatActivity
 
   @Override
   public Loader<List<Articles>> onCreateLoader(int id, Bundle args) {
+    SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+    String
     // Create a new loader for the given URL
     return new ArticlesLoader(this);
   }
@@ -132,4 +140,25 @@ public class MainActivity extends AppCompatActivity
   public void onRefresh() {
     getSupportLoaderManager().restartLoader(LOADER_ID, null, this);
   }
+
+  @Override
+  // This method initialize the contents of the Activity's options menu.
+  public boolean onCreateOptionsMenu(Menu menu) {
+    // Inflate the Options Menu we specified in XML
+    getMenuInflater().inflate(R.menu.main, menu);
+    return true;
+  }
+
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    int id = item.getItemId();
+    if(id == R.id.action_settings) {
+      Intent settingsIntent = new Intent(this, SettingsActivity.class);
+      startActivity(settingsIntent);
+      return true;
+    }
+    return super.onOptionsItemSelected(item);
+  }
+
 }
+

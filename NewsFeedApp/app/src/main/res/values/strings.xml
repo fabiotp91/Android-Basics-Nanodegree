@@ -2,4 +2,23 @@
   <string name="app_name">News Feed App</string>
   <string name="no_internet_connection">No Internet Connection, check your internet connection and try again.</string>
   <string name="no_articles">No Articles Found, swipe to refresh, reload the app or check after some time.</string>
+
+  <string name="settings_menu_item">Settings</string>
+  <string name="settings_title">News Feed Settings</string>
+
+  <string name="settings_orderby_label">Order By</string>
+  <string name="settings_orderby_key" translatable="false">order-by</string>
+  <string name="settings_orderby_default" translatable="false">newest</string>
+  <string name="settings_orderby_oldest" translatable="false">oldest</string>
+
+  <string-array name="settings_orderby_options_labels">
+    <item>Newest</item>
+    <item>Oldest</item>
+  </string-array>
+
+  <string-array name="settings_orderby_options">
+    <item>newest</item>
+    <item>oldest</item>
+  </string-array>
+
 </resources>

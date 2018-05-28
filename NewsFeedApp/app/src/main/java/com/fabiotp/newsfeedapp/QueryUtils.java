@@ -1,6 +1,9 @@
 package com.fabiotp.newsfeedapp;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 import java.io.BufferedReader;
@@ -31,6 +34,9 @@ public class QueryUtils {
   private static int readTimeout = 10000;
   // Set URL Connection Connect Timeout
   private static int connectTimeout = 15000;
+
+  Context context = this;
+  SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(Context.MODE_PRIVATE);
 
   // Build Uri to query the guardian API
   static String createStringUrl() {
