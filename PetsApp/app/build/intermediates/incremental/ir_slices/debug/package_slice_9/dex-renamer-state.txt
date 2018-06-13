@@ -1,0 +1,4 @@
+#Wed Jun 13 16:41:04 BST 2018
+base.0=C\:\\Users\\ftp91\\Desktop\\PetsApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+path.0=classes.dex
+renamed.0=classes.dex

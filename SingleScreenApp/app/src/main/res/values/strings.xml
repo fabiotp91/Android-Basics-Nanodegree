@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="logo_image">Logo image</string>
+    <string name="hoursMonToFri">9:00 to 13:00 - 14:30 to 19:00</string>
+    <string name="hours_of_operation">Hours of Operation</string>
+    <string name="imagina_f">imagina.f</string>
+    <string name="adresslocation">Rua da Leziria Nº3 R/C Direito</string>
+    <string name="phonenumber">(+351) 913 556 084</string>
+    <string name="photography_studio">Photography Studio</string>
+    <string name="logo_phone">Logo Phone</string>
+    <string name="logo_adress">Logo Adress</string>
+    <string name="logo_hours">Logo Hours</string>
+    <string name="logo_face">Logo Face</string>
+    <string name="logo_info">Logo Info</string>
+    <string name="top_image">Top image</string>
+    <string name="text_saturday">Saturday</string>
+    <string name="text_sunday">Sunday</string>
+    <string name="text_sundayHours">Closed</string>
+    <string name="text_monTofri">Mon to Fri</string>
+    <string name="text_saturdayHours">9:00 to 13:00</string>
+    <color name="background">#191919</color>
+
+</resources>

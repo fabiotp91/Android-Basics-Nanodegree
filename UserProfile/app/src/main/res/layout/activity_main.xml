@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.fabiotp.userprofile.MainActivity">
+
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/profile_picture"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "Name"
+    android:gravity="center_horizontal"
+    android:padding="4dp"
+    android:id="@+id/name"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "Birthday"
+    android:gravity="center_horizontal"
+    android:padding="4dp"
+    android:id="@+id/birthday"/>
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "Country"
+    android:gravity="center_horizontal"
+    android:padding="4dp"
+    android:id="@+id/country"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

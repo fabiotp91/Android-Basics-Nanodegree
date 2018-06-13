@@ -1,0 +1,166 @@
+<resources>
+  <string name="app_name">Sintra WeGuide</string>
+  <string name="tab1_title">Sintra</string>
+  <string name="tab2_title">Sights</string>
+  <string name="tab3_title">Food</string>
+  <string name="tab4_title">Hotels</string>
+
+  <!-- Sintra -->
+  <string name="sintra_text">Sintra is a picturesque Portuguese town that is set amidst the pine-covered hills of the Serra de Sintra.
+    \n\nThis hilly and slightly cooler climate enticed the nobility and elite of Portugal,
+    who constructed exquisite palaces, extravagant mansions and decorative gardens.
+    \n\nThe variety of fascinating historic buildings and beautiful scenery has established Sintra as a fantastic tourist destination,
+    \nand has since become the most popular day trip from Lisbon.
+    \n\nThis guide will help you find the best places to eat, sleep and visit in Sintra.</string>
+  <string name="intro_image_description"> Sintra Intro Image</string>
+
+  <!-- Sights -->
+  <string name="sight_location_1">Pena Palace</string>
+  <string name="sight_details_1">Palace, Tourist Attraction, Paid</string>
+  <string name="sight_uri_1">geo:38.7875851,-9.3927976,17z?q=Park+and+National+Palace+of+Pena</string>
+  <drawable name="sight_image_1">@drawable/palacio_pena</drawable>
+
+  <string name="sight_location_2">Quinta da Regaleira</string>
+  <string name="sight_details_2">Mansion, Gardens, Paid</string>
+  <string name="sight_uri_2">geo:38.7963069,-9.3960244,15z?q=Quinta+da+Regaleira</string>
+  <drawable name="sight_image_2">@drawable/quinta_da_regaleira</drawable>
+
+  <string name="sight_location_3">Convento dos Capuchos</string>
+  <string name="sight_details_3">Monastery, Paid</string>
+  <string name="sight_uri_3">geo:38.7843454,-9.4381369,15z?q=Convent+of+the+Capuchos</string>
+  <drawable name="sight_image_3">@drawable/convento_dos_capuchos</drawable>
+
+  <string name="sight_location_4">National Palace</string>
+  <string name="sight_details_4">Palace, Historic, Paid</string>
+  <string name="sight_uri_4">geo:38.7976627,-9.3906554,15z?q=Sintra+National+Palace</string>
+  <drawable name="sight_image_4">@drawable/sintra_palacio_nacional</drawable>
+
+  <string name="sight_location_5">Moorish Castle</string>
+  <string name="sight_details_5">Castle, Historic, Paid</string>
+  <string name="sight_uri_5">geo:38.792556,-9.3893376,15z?q=Castelo+dos+Mouros</string>
+  <drawable name="sight_image_5">@drawable/castelo_dos_mouros</drawable>
+
+  <string name="sight_location_6">Monserrate Palace</string>
+  <string name="sight_details_6">Palace, Mansion, Paid</string>
+  <string name="sight_uri_6">geo:38.7939869,-9.4208817,15z?q=Park+and+Palace+of+Monserrate</string>
+  <drawable name="sight_image_6">@drawable/palacio_monserrate</drawable>
+
+  <string name="sight_location_7">Santuario da Peninha</string>
+  <string name="sight_details_7">Coastline View, Mansion, Free</string>
+  <string name="sight_uri_7">geo:38.7685239,-9.4606042,15z?q=Santuário+da+Peninha</string>
+  <drawable name="sight_image_7">@drawable/santuario_peninha</drawable>
+
+  <string name="sight_location_8">Pena Park</string>
+  <string name="sight_details_8">Park, Free</string>
+  <string name="sight_uri_8">geo:38.7875851,-9.3906089,15z?q=Park+and+National+Palace+of+Pena</string>
+  <drawable name="sight_image_8">@drawable/parque_pena</drawable>
+
+  <string name="sight_location_9">Cabo da Roca</string>
+  <string name="sight_details_9">Natural Viewpoint, Free</string>
+  <string name="sight_uri_9">geo:38.780417,-9.498885,15z?q=Cabo+da+Roca</string>
+  <drawable name="sight_image_9">@drawable/cabo_roca</drawable>
+
+  <!-- Food -->
+  <string name="food_location_1">Nau Palatina</string>
+  <string name="food_details_1">Mediterranean, Vegetarian Friendly €€-€€€</string>
+  <string name="food_uri_1">geo:38.792786,-9.3807491,15z?q=Nau+Palatina</string>
+  <drawable name="food_image_1">@drawable/nau_palatina</drawable>
+
+  <string name="food_location_2">Taberna Criativa</string>
+  <string name="food_details_2">European, Vegetarian Friendly €€-€€€</string>
+  <string name="food_uri_2">geo:38.8019893,-9.3844526,17z?q=Taberna+Criativa</string>
+  <drawable name="food_image_2">@drawable/taberna_criativa</drawable>
+
+  <string name="food_location_3">Saudade</string>
+  <string name="food_details_3">Cafe, Vegetarian Friendly €€-€€€</string>
+  <string name="food_uri_3">geo:38.7985992,-9.3892817,17z?q=Saudade</string>
+  <drawable name="food_image_3">@drawable/saudade</drawable>
+
+  <string name="food_location_4">O Lavrador</string>
+  <string name="food_details_4">Steakhouse, Portuguese €€-€€€</string>
+  <string name="food_uri_4">geo:38.8145592,-9.3929117,17z?q=O+Lavrador</string>
+  <drawable name="food_image_4">@drawable/lavrador</drawable>
+
+  <string name="food_location_5">Restaurant Metamorphosis</string>
+  <string name="food_details_5">Mediterranean, Seafood €</string>
+  <string name="food_uri_5">geo:38.7995976,-9.3865571,17z?q=Metamorphosis</string>
+  <drawable name="food_image_5">@drawable/metamorphosis</drawable>
+
+  <string name="food_location_6">Estefânea Cafe</string>
+  <string name="food_details_6">Bar, Cafe €€-€€€</string>
+  <string name="food_uri_6">geo:38.801283,-9.3851513,17z?q=Estefânea+Cafe</string>
+  <drawable name="food_image_6">@drawable/estefanea_cafe</drawable>
+
+  <string name="food_location_7">Bar do Fundo</string>
+  <string name="food_details_7">Seafood, Mediterranean €€-€€€</string>
+  <string name="food_uri_7">geo:38.8112272,-9.4812739,17z?q=Bar+do+Fundo</string>
+  <drawable name="food_image_7">@drawable/bar_fundo</drawable>
+
+  <string name="food_location_8">Incomum by Luis Santos</string>
+  <string name="food_details_8">Mediterranean, Fusion €€-€€€</string>
+  <string name="food_uri_8">geo:38.7989,-9.3894398,17z?q=Incomum+by+Luis+Santos</string>
+  <drawable name="food_image_8">@drawable/incomum</drawable>
+
+  <string name="food_location_9">A Raposa</string>
+  <string name="food_details_9">Mediterranean, European €€€€</string>
+  <string name="food_uri_9">geo:38.7990719,-9.3896614,17z?q=A+Raposa+Restaurante+Sintra</string>
+  <drawable name="food_image_9">@drawable/raposa</drawable>
+
+  <string name="food_location_10">Tascantiga</string>
+  <string name="food_details_10">Bar, Mediterranean €€-€€€</string>
+  <string name="food_uri_10">geo:38.7957575,-9.3932633,17z?q=Tascantiga</string>
+  <drawable name="food_image_10">@drawable/tascantiga</drawable>
+
+  <!-- Hotels -->
+
+  <string name="hotel_location_1">Hotel Tivoli Sintra</string>
+  <string name="hotel_details_1">Free Parking, Restaurant - 4 Stars</string>
+  <string name="hotel_uri_1">geo:38.7967595,-9.3949782,16z?=Tivoli+Sintra</string>
+  <drawable name="hotel_image_1">@drawable/tivoli</drawable>
+
+  <string name="hotel_location_2">Casa da Pendôa</string>
+  <string name="hotel_details_2">Free Wifi - 4 Stars</string>
+  <string name="hotel_uri_2">geo:38.7972067,-9.393927,17z?q=Casa+da+Pendôa</string>
+  <drawable name="hotel_image_2">@drawable/casa_pendoa</drawable>
+
+  <string name="hotel_location_3">Quinta Verde Sintra</string>
+  <string name="hotel_details_3">Free Wifi, Free Parking - 4 Stars</string>
+  <string name="hotel_uri_3">geo:38.8312376,-9.3983102,17z?q=QUINTA+VERDE+SINTRA</string>
+  <drawable name="hotel_image_3">@drawable/quinta_verde</drawable>
+
+  <string name="hotel_location_4">Pestana Sintra Golf</string>
+  <string name="hotel_details_4">Free Wifi, Free Parking - 4 Stars</string>
+  <string name="hotel_uri_4">geo:38.7626998,-9.3693578,17z?q=Pestana+Sintra+Golf</string>
+  <drawable name="hotel_image_4">@drawable/pestana</drawable>
+
+  <string name="hotel_location_5">Sintra Bliss House</string>
+  <string name="hotel_details_5">Free Wifi, Breakfast included - 3 Stars</string>
+  <string name="hotel_uri_5">geo:38.7991053,-9.3891424,17z?q=Sintra+Bliss+House</string>
+  <drawable name="hotel_image_5">@drawable/bliss_house</drawable>
+
+  <string name="hotel_location_6">Águamel Sintra</string>
+  <string name="hotel_details_6">Free Wifi, Breakfast included - 3 Stars</string>
+  <string name="hotel_uri_6">geo:38.7958435,-9.3931033,17z?q=/Águamel+Sintra,+Boutique+Guest+House</string>
+  <drawable name="hotel_image_6">@drawable/aguamel</drawable>
+
+  <string name="hotel_location_7">Casa Do Valle</string>
+  <string name="hotel_details_7">Free Wifi, Free Parking - 3 Stars</string>
+  <string name="hotel_uri_7">geo:38.8003138,-9.3961598,17z?q=Casa+Do+Valle</string>
+  <drawable name="hotel_image_7">@drawable/casa_valle</drawable>
+
+  <string name="hotel_location_8">Casa Miradouro</string>
+  <string name="hotel_details_8">Free Wifi - 3 Stars</string>
+  <string name="hotel_uri_8">geo:38.8007076,-9.3959888,17z?q=Casa+Miradouro</string>
+  <drawable name="hotel_image_8">@drawable/casa_miradouro</drawable>
+
+  <string name="hotel_location_9">Chalet Saudade - Vintage Guest House</string>
+  <string name="hotel_details_9">Free Wifi, Breakfast included - 3 Stars</string>
+  <string name="hotel_uri_9">geo:38.7993619,-9.3888927,17z?q=Chalet+Saudade+-+Vintage+Guest+House</string>
+  <drawable name="hotel_image_9">@drawable/challet_saudade</drawable>
+
+  <string name="hotel_location_10">Villa dos Poetas</string>
+  <string name="hotel_details_10">Free Wifi, Free Parking - 4 Stars</string>
+  <string name="hotel_uri_10">geo:38.7980625,-9.3855171,17z?q=Villa+dos+Poetas+Guest+House+Sintra</string>
+  <drawable name="hotel_image_10">@drawable/villa_poetas</drawable>
+
+</resources>
