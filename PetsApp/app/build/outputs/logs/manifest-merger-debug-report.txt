@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
 MERGED from [com.android.support:design:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\e792762fed7af8b3d034629132f853ba\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\486e85a0c5ff2a909325d0ad939daee2\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-v4:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-v4-24.2.1.aar\2c3d4dd641e5467fed69263ab15e75df\AndroidManifest.xml:17:1-27:12
@@ -15,25 +15,25 @@ MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\ftp91\.gr
 MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-core-utils-24.2.1.aar\34fbc5759532ed239996efbb7c6498ca\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b95facf6ac8a4d99af3a6887694c49dc\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\61d5c0657d7843b4032dffd78d9e1aa3\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
 	package
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:11-45
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:11-45
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:13:1-42:12
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:14:11-69
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:14:11-69
 application
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:16:5-40:19
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:16:5-40:19
 MERGED from [com.android.support:design:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\e792762fed7af8b3d034629132f853ba\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\e792762fed7af8b3d034629132f853ba\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\486e85a0c5ff2a909325d0ad939daee2\AndroidManifest.xml:25:5-20
@@ -55,51 +55,51 @@ MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\ftp91\.gradle\
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\61d5c0657d7843b4032dffd78d9e1aa3\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\61d5c0657d7843b4032dffd78d9e1aa3\AndroidManifest.xml:25:5-20
 	android:supportsRtl
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:19:9-41
 	android:icon
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:21:9-40
 activity#com.example.android.pets.CatalogActivity
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:22:9-29:20
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:22:9-29:20
 	android:label
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:23:13-44
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:23:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:25:13-28:29
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:26:17-68
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:26:17-68
 	android:name
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:27:17-76
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:27:17-76
 	android:name
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.example.android.pets.EditorActivity
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:30:9-39:20
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:30:9-39:20
 	android:parentActivityName
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:34:13-58
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:34:13-58
 	android:label
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:32:13-66
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:32:13-66
 	android:theme
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:33:13-47
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:33:13-47
 	android:name
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:31:13-43
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:31:13-43
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:36:13-38:52
+ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:36:13-38:52
 	android:value
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:38:17-49
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:38:17-49
 	android:name
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml:37:17-63
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml:37:17-63
 uses-sdk
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\e792762fed7af8b3d034629132f853ba\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:design:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\design-24.2.1.aar\e792762fed7af8b3d034629132f853ba\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\486e85a0c5ff2a909325d0ad939daee2\AndroidManifest.xml:21:5-23:78
@@ -122,15 +122,15 @@ MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\ftp91\.gradle\
 MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-core-ui-24.2.1.aar\b95facf6ac8a4d99af3a6887694c49dc\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\61d5c0657d7843b4032dffd78d9e1aa3\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\support-compat-24.2.1.aar\61d5c0657d7843b4032dffd78d9e1aa3\AndroidManifest.xml:21:5-23:58
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\ftp91\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.2.1.aar\486e85a0c5ff2a909325d0ad939daee2\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ftp91\Desktop\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ftp91\Documents\Github\Android-Basics-Nanodegree\PetsApp\app\src\main\AndroidManifest.xml

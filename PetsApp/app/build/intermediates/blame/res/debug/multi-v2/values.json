@@ -1,42 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "29,20,17,26,14,35,38,32,23,59,56,53,44,41,47,50",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1487,1049,880,1345,737,1750,1879,1622,1189,2761,2634,2503,2126,2009,2244,2364",
-                        "endColumns": "48,69,70,44,41,50,60,54,67,48,44,50,48,46,50,46",
-                        "endOffsets": "1531,1114,946,1385,774,1796,1935,1672,1252,2805,2674,2549,2170,2051,2290,2406"
-                    },
-                    "to": {
-                        "startLines": "562,563,564,565,566,569,570,571,573,574,575,576,577,578,579,582",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "47377,47426,47496,47567,47612,47920,47971,48032,48174,48242,48291,48336,48387,48436,48483,48658",
-                        "endColumns": "48,69,70,44,41,50,60,54,67,48,44,50,48,46,50,46",
-                        "endOffsets": "47421,47491,47562,47607,47649,47966,48027,48082,48237,48286,48331,48382,48431,48478,48529,48700"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "20,14,17,23,26",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "980,735,854,1069,1170",
-                        "endColumns": "45,46,50,52,56",
-                        "endOffsets": "1021,777,900,1117,1222"
-                    },
-                    "to": {
-                        "startLines": "34,35,36,51,52",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "2169,2215,2262,3292,3345",
-                        "endColumns": "45,46,50,52,56",
-                        "endOffsets": "2210,2257,2308,3340,3397"
-                    }
-                },
                 {
                     "source": "C:\\Users\\ftp91\\.gradle\\caches\\transforms-1\\files-1.1\\recyclerview-v7-24.2.1.aar\\8dfc702ff66243c2e6a006d62d91b7e4\\res\\values\\values.xml",
                     "from": {
@@ -74,20 +40,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "16,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "817,717",
-                        "endColumns": "46,41",
-                        "endOffsets": "859,754"
+                        "startLines": "20,14,17,23,26",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "980,735,854,1069,1170",
+                        "endColumns": "45,46,50,52,56",
+                        "endOffsets": "1021,777,900,1117,1222"
                     },
                     "to": {
-                        "startLines": "464,502",
-                        "startColumns": "4,4",
-                        "startOffsets": "40986,43383",
-                        "endColumns": "46,41",
-                        "endOffsets": "41028,43420"
+                        "startLines": "34,35,36,51,52",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2169,2215,2262,3292,3345",
+                        "endColumns": "45,46,50,52,56",
+                        "endOffsets": "2210,2257,2308,3340,3397"
                     }
                 },
                 {
@@ -110,7 +76,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\src\\main\\res\\values\\arrays.xml",
+                    "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\values\\arrays.xml",
                     "from": {
                         "startLines": "14",
                         "startColumns": "4",
@@ -129,7 +95,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ftp91\\Desktop\\PetsApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "29,20,17,26,14,35,38,32,23,59,56,53,44,41,47,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1487,1049,880,1345,737,1750,1879,1622,1189,2761,2634,2503,2126,2009,2244,2364",
+                        "endColumns": "48,69,70,44,41,50,60,54,67,48,44,50,48,46,50,46",
+                        "endOffsets": "1531,1114,946,1385,774,1796,1935,1672,1252,2805,2674,2549,2170,2051,2290,2406"
+                    },
+                    "to": {
+                        "startLines": "562,563,564,565,566,569,570,571,573,574,575,576,577,578,579,582",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "47377,47426,47496,47567,47612,47920,47971,48032,48174,48242,48291,48336,48387,48436,48483,48658",
+                        "endColumns": "48,69,70,44,41,50,60,54,67,48,44,50,48,46,50,46",
+                        "endOffsets": "47421,47491,47562,47607,47649,47966,48027,48082,48237,48286,48331,48382,48431,48478,48529,48700"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "14,28,39,21,47",
                         "startColumns": "4,4,4,4,4",
@@ -145,6 +128,23 @@
                         "endLines": "595,1615,1621,1626,1634",
                         "endColumns": "12,12,12,12,12",
                         "endOffsets": "49614,114469,114788,115078,115503"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "16,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "817,717",
+                        "endColumns": "46,41",
+                        "endOffsets": "859,754"
+                    },
+                    "to": {
+                        "startLines": "464,502",
+                        "startColumns": "4,4",
+                        "startOffsets": "40986,43383",
+                        "endColumns": "46,41",
+                        "endOffsets": "41028,43420"
                     }
                 }
             ]
