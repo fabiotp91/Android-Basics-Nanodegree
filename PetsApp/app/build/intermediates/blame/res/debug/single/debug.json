@@ -276,6 +276,10 @@
         "source": "C:\\Users\\ftp91\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\486e85a0c5ff2a909325d0ad939daee2\\res\\layout\\notification_media_action.xml"
     },
     {
+        "merged": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\ftp91\\Documents\\Github\\Android-Basics-Nanodegree\\PetsApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\ftp91\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\486e85a0c5ff2a909325d0ad939daee2\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },

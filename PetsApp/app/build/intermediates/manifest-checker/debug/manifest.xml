@@ -39,7 +39,6 @@
         </activity>
         <activity
             android:name="com.example.android.pets.EditorActivity"
-            android:label="@string/editor_activity_title_new_pet"
             android:parentActivityName="com.example.android.pets.CatalogActivity"
             android:theme="@style/EditorTheme" >
 
@@ -49,6 +48,10 @@
                 android:value=".CatalogActivity" />
         </activity>
 
+        <provider
+            android:name="com.example.android.pets.data.PetProvider"
+            android:authorities="com.example.android.pets"
+            android:exported="false" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.android.pets.com.android.tools.ir.server.InstantRunContentProvider"

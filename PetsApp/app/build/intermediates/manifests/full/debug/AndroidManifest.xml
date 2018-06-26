@@ -26,6 +26,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.android.pets.CatalogActivity"
@@ -38,7 +39,6 @@
         </activity>
         <activity
             android:name="com.example.android.pets.EditorActivity"
-            android:label="@string/editor_activity_title_new_pet"
             android:parentActivityName="com.example.android.pets.CatalogActivity"
             android:theme="@style/EditorTheme" >
 
@@ -47,6 +47,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CatalogActivity" />
         </activity>
+
+        <provider
+            android:name="com.example.android.pets.data.PetProvider"
+            android:authorities="com.example.android.pets"
+            android:exported="false" />
     </application>
 
 </manifest>
