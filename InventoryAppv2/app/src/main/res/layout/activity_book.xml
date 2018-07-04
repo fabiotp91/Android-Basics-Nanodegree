@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp"
+  tools:context="com.fabiotp.inventoryappv2.BookActivity">
+
+  <LinearLayout style="@style/ActivityViewLinearLayoutsection1">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        style="@style/ProductViewTitleTextStyle"
+        android:text="@string/book_name" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        android:id="@+id/txt_viewbook_name"
+        style="@style/ProductViewdetailStyle" />
+
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout style="@style/ListItemLinearLayoutsection1">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        style="@style/ProductViewTitleTextStyle"
+        android:text="@string/book_price" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        android:id="@+id/txt_viewbook_price"
+        style="@style/ProductViewdetailStyle" />
+
+      <TextView
+        style="@style/CurrencyStyle"
+        android:layout_marginLeft="16dp"
+        android:text="@string/book_price_currency" />
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout style="@style/ActivityViewLinearLayoutsection1">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        style="@style/ProductViewTitleTextStyle"
+        android:text="@string/book_quantity" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        android:id="@+id/txt_viewbook_quantity"
+        style="@style/ProductViewdetailStyle" />
+
+      <LinearLayout
+        style="@style/ListItemLinearLayoutsection2"
+        android:paddingLeft="16dp">
+
+        <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+          <Button
+            android:id="@+id/bt_increase"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorAccent"
+            android:text="+"
+            android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+          <Button
+            android:id="@+id/bt_decrease"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/colorAccent"
+            android:text="-"
+            android:textColor="#fff" />
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout style="@style/ActivityViewLinearLayoutsection1">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        style="@style/ProductViewTitleTextStyle"
+        android:text="@string/book_supplier_name" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        android:id="@+id/txt_viewbook_supplier_name"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingRight="16dp" />
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout style="@style/ActivityViewLinearLayoutsection1">
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <TextView
+        style="@style/ProductViewTitleTextStyle"
+        android:text="@string/book_supplier_phone" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+      <LinearLayout style="@style/ActivityViewLinearLayoutsection1">
+
+        <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="3"
+          android:orientation="horizontal">
+
+          <TextView
+            android:id="@+id/txt_viewbook_supplier_phone"
+            style="@style/ProductViewdetailStyle" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/ListItemLinearLayoutsection2">
+
+          <Button
+            android:id="@+id/bt_phone"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_phone_white_24dp"
+            android:focusable="false" />
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+    style="@style/ActivityViewLinearLayoutsection1"
+    android:gravity="center">
+
+    <Button
+      android:id="@+id/bt_delete"
+      style="@style/ActivityViewButtonStyle"
+      android:drawableLeft="@drawable/ic_delete_white_24dp"
+      android:text="Delete" />
+  </LinearLayout>
+</LinearLayout>

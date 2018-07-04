@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Supplier Name Options -->
+  <string-array name="array_supplier_options">
+    <item>@string/supplier_unknown</item>
+    <item>@string/supplier_amazon</item>
+    <item>@string/supplier_bertrand</item>
+    <item>@string/supplier_wook</item>
+  </string-array>
+</resources>
